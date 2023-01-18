@@ -1,0 +1,189 @@
+
+body {
+    font: Comic Sans;
+    text-align: center;
+    background-color: rgb(147, 192, 236);
+}
+
+hr {
+  border: dotted #4528eb 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 10px auto 40px auto;
+}
+
+h1 {
+  font-family:'Trebuchet MS';
+  font-style: italic;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.header {
+    overflow: hidden;
+    border-bottom: 2 px solid #08799b;
+    background-image: linear-gradient(45deg, rgba(105, 105, 180, 0.733) 50%, lightblue 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.4s ease;
+    text-align: left;
+    padding: 20px 10px;
+  }
+
+.header a {
+    position: relative;
+    float: left;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;  
+}
+
+.header a.logo{
+    font-size : 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.header:hover{
+    background-position: bottom left;
+}
+
+
+.header a{
+    color: rgb(8, 1, 1);
+}
+
+
+.header a.menu-item:hover {
+    background-color: rgb(147, 192, 236);
+    text-shadow: 5px 2px 5px #4bc0c4;
+  }
+
+.h-right{
+    float: right
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    
+    .h-right {
+      float: none;
+    }
+  }
+
+.container {
+  display: flex;
+  margin: 3rem auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.title {
+    animation: typing-effect 3.5s steps(40,end), blink-effect 1s both;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-right: 15px;
+    border-right: solid;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .1em;   
+}
+
+.container2 {
+  position: relative;
+}
+
+
+.csMajorLate {
+  animation: typing-effect 3.5s steps(40,end), blink-effect .5s both;
+  width: fit-content;
+  animation-delay: calc(var(--delay, 0) * 1s), calc(var(--delay, 0) * 1s + 1.5s);
+  margin: 0 auto;
+  font-size: 25px;
+  padding-right: 15px;
+  border-right: solid;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: .1em;
+}
+
+@keyframes typing-effect {
+    from {
+      max-width: 0
+    }
+    to {
+      max-width: 100%
+    }
+  }
+     
+ @keyframes blink-effect {
+    from, to {border-color: transparent}
+    30% {border-color: transparent}
+  }
+
+.about{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    position: relative;
+}
+
+.about p {
+    padding-top: 30px;
+    width: 40rem;
+}
+
+.Tanuj{
+    height: 25%; 
+    width: 25%;
+    float: left;
+    padding-right :30px;
+    border-radius: 30%;
+}
+
+.links {
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 10px;
+    bottom: 10px;
+    left: 45%;
+}
+
+.center{
+    height: 55px;
+    width: 55px;
+    padding: 20px;
+}
+
+.center:hover {
+    color: rgba(255, 255, 255, 1);
+    outline-offset: -3px;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(94, 167, 235, 0.5));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+.experiences {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    position: relative;
+}
+
+.experiences h1{
+    position: absolute;
+    top: 500;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+

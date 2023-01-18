@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+ #menu {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+ }
+ #profile{
+     height: 32px;
+     width: 32px;
+     border-radius: 16px;
+ }
+ #profile:hover{
+     box-shadow: 0px 0px 5px #c2c2c2
+ }
+ #store{
+     margin-right: auto;
+ }
+
+ #search{
+    margin-top: 120px;
+    text-align: center;
+ }
+ #searching-bar{
+    height: 34px;
+    font-size: 17px;;
+    border-radius: 17px;
+    border: 1px solid #d1a0a0 ;
+    width: 90%;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:30px; 
+ }
+ #searching-bar:hover,
+ #searching-bar:focus{
+    box-shadow:  0px 0px 5px #c2c2c2 ;
+ }
+#main-logo{
+    width: 272px;
+}
+ /* centering logo */
+ .menu-item{
+    font-size: 14px;
+    color: black;
+    margin: 0px 10px;
+    text-decoration : none;
+ }
+ .menu-item:hover{
+     text-decoration: underline;
+ }
+
+ #search-buttons{
+     display:flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+ .button-class{
+     margin:8px;
+     padding:8px 15px;
+     cursor: pointer;
+     background-color: #f8f9fa;
+     border: 1px solid #4b4b4b;
+     border-radius: 4px;
+     font-size: 14px;
+ }
+ .button-class:hover{
+    box-shadow:  0px 0px 5px #c2c2c2 ;
+ }
+
+
+
+
+
+
+
+   
